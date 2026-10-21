@@ -1,0 +1,5 @@
+# Copy this file to config/db.properties and edit. db.properties is git-ignored.
+# Environment variables DB_URL, DB_USER, DB_PASSWORD override these values.
+db.url=jdbc:mysql://localhost:3306/online_reservation?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=reservation_app
+db.password=change_me
